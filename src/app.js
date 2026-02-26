@@ -7,7 +7,7 @@ const tasksRouter = require('./routes/tasks');
 
 
 
-pp.get('/', (req, res) => {
+app.get('/', (req, res) => {
  res.json({ message: "Task Manager API running (Lab2)" });
 }); 
 
